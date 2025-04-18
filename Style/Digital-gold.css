@@ -1,0 +1,213 @@
+* {
+    font-family: IRANyekan;
+}
+
+.header {
+    width: 100%;
+    height: 72px;
+    background-color: rgb(255, 208, 143);
+    padding: 12px;
+    .header-item-gold {
+        width: 100%;
+        height: 40px;
+        padding: 0 16px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        .header-right-item {
+            display: flex;
+            align-items: center;
+            margin-right: 80px;
+            a {
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                img {
+                    width: 32px;
+                    height: 32px;
+                    object-fit: cover;
+                }
+                span {
+                    font-size: 21px;
+                    font-weight: 800;
+                    line-height: 26.25px;
+                    color: rgb(1, 73, 75);
+                }
+                p {
+                    font-size: 21px;
+                    font-weight: 500;
+                    color: rgb(1, 73, 75);
+                }
+            }
+        }
+        .header-left-item {
+            width: 150.57px;
+            height: 48px;
+            border-radius: 8px;
+            background-color: rgb(255, 243, 246);
+            margin-left: 80px;
+            padding: 12px 4px;
+            display: flex;
+            justify-content: space-between;
+            a {
+                text-decoration: none;
+                font-size: 14px;
+                font-weight: 700;
+                color: rgb(230, 18, 61);
+            }
+            svg {
+                path {
+                    fill: rgb(230, 18, 61);
+                }
+            }
+        }
+    }
+}
+
+.main-gold {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(1, 73, 75);
+    background-image: url(/images/digital-gold/banner-pattern-2.png);
+    .main-gold-text {
+        width: 100%;
+        height: 280px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        padding-right: 200px;
+        span {
+            font-size: 33px;
+            font-weight: 800;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            a {
+                font-size: 33px;
+                font-weight: 800;
+                color: rgb(255, 208, 143);
+                text-decoration: none;
+            }
+        }
+    }
+    .main-gold-2 {
+        margin-top: 10px;
+        width: 410px;
+        p {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 30.1px;
+            color: rgb(255, 255, 255);
+        }
+    }
+    .main-gold-3 {
+        margin-top: 5px;
+        width: 180px;
+        height: 40px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        p {
+            font-size: 12px;
+            font-weight: 700;
+            color: rgb(12, 12, 12);
+        }
+    }
+}
+
+.main-gold-category {
+    width: 82%;
+    height: 568.35px;
+    padding: 16px;
+    background-color: rgb(229, 236, 235);
+    margin: 10px auto;
+    border-radius: 16px;
+    margin-bottom: 50px;
+    >span {
+        font-size: 21px;
+        font-weight: 800;
+        line-height: 44.1px;
+        color: rgb(1, 73, 75);
+    }
+    .main-gold-category-back {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        .main-gold-category-item {
+            width: 300px;
+            height: 420.25px;
+            border-radius: 8px;
+            .text-item {
+                display: flex;
+                flex-flow: column;
+                text-align: center;
+                gap: 10px;
+                margin-top: 25px;
+                margin-bottom: 29px;
+                h2 {
+                    font-size: 21px;
+                    font-weight: 800;
+                    line-height: 26.25px;
+                    color: rgb(255, 255, 255);
+                }
+                p {
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 15px;
+                    color: rgb(255, 255, 255);
+                }
+            }
+            .image-item {
+                img {
+                    width: 300px;
+                    height: 300px;
+                    object-fit: cover;
+                }
+            }
+        }
+        .item-1 {
+            background-color: rgb(1, 73, 75);
+        }
+        .item-2 {
+            background-color: rgb(255, 208, 143);
+            h2 {
+                color: rgb(1, 73, 75) !important;
+            }
+            p {
+                color: rgb(1, 73, 75) !important;
+            }
+        }
+        .item-3 {
+            background-color: rgb(1, 73, 75);
+        }
+        .item-4 {
+            background-color: rgb(255, 208, 143);
+            h2 {
+                color: rgb(1, 73, 75) !important;
+            }
+            p {
+                color: rgb(1, 73, 75) !important;
+            }
+        }
+    }
+    .button-start {
+        width: 180px;
+        height: 40px;
+        background-color: rgb(1, 73, 75);
+        border-radius: 8px;
+        margin: 10px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        p {
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 26.04px;
+            color: rgb(255, 255, 255);
+        }
+    }
+}

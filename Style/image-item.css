@@ -1,0 +1,19 @@
+.Image-item {
+    width: 88.43%;
+    height: 241.5px;
+    margin: 16px auto;
+    display: flex;
+    justify-content: space-between;
+    .image-item_1 {
+        width: 322px;
+        height: 241.5px;
+        border-radius: 16px;
+        cursor: pointer;
+        img {
+            object-fit: cover;
+            width: 322px;
+            height: 241.5px;
+            border-radius: 16px;
+        }
+    }
+}

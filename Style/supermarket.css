@@ -1,0 +1,87 @@
+    .supermarket {
+        width: 88.43%;
+        height: 110px;
+        margin: 16px auto;
+        background-color: #e2e2e2;
+        border-radius: 16px;
+        display: flex;
+        background-image: url(/images/supermarket/freshPattern.svg);
+        background-repeat: no-repeat;
+        .svg-supermarket {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: right;
+            align-items: center;
+            width: 599px;
+            img {
+                padding-right: 40px;
+                margin-left: 25px;
+            }
+            svg {
+                margin-left: 22px;
+            }
+            p {
+                font-family: IRANyekan;
+                background-color: #029a49;
+                color: #fffff9;
+                padding: 7px;
+                border-radius: 999px;
+            }
+        }
+        .supermarket-more {
+            display: flex;
+            flex-flow: row;
+            align-items: center;
+            .supermarket_2 {
+                width: 74px;
+                height: 74px;
+                border-radius: 50%;
+                margin: 9px;
+                display: flex;
+                flex-flow: column;
+                cursor: pointer;
+                img {
+                    width: 74px;
+                    height: 74px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+                span {
+                    width: 32.1px;
+                    height: 26.1px;
+                    display: flex;
+                    background-color: #d32f2f;
+                    color: var(--color-white);
+                    font-size: 11px;
+                    font-weight: 700;
+                    line-height: 2.17;
+                    font-family: IRANyekan;
+                    border-radius: 16px;
+                    margin-top: -20px;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+            .supermarket_2_more {
+                background-color: #FFF;
+                width: 144.14px;
+                height: 50.04px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 999px;
+                p {
+                    font-family: IRANyekan;
+                    font-size: 12px;
+                    font-weight: 700;
+                    line-height: 2.17;
+                    color: #029a49;
+                }
+                svg {
+                    path {
+                        fill: #029a49;
+                    }
+                }
+            }
+        }
+    }

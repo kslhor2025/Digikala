@@ -1,0 +1,54 @@
+.wiper-item-category {
+    width: 88.43%;
+    height: 464.1px;
+    margin: 20px auto;
+    .swiper_category_text {
+        font-size: 1.6rem;
+        font-weight: 500;
+        line-height: 2.1;
+        font-family: IRANyekan;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .mySwiper__4 {
+        height: 328px;
+        margin: 20px auto;
+        .part_1 {
+            height: 180px;
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+            cursor: pointer;
+            img {
+                width: 100px;
+                height: 100px;
+            }
+            p {
+                font-family: IRANyekan;
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 2.17;
+                color: var(--color-neutral-900);
+            }
+        }
+        .part_2 {
+            height: 160px;
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+            cursor: pointer;
+            img {
+                width: 100px;
+                height: 100px;
+            }
+            p {
+                font-family: IRANyekan;
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 2.17;
+                color: var(--color-neutral-900);
+            }
+        }
+    }
+}

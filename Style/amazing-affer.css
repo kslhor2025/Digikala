@@ -1,0 +1,114 @@
+.amazing-affer {
+    width: 88.43%;
+    height: 294.04px;
+    background-color: #d92f4e;
+    margin: 16px auto;
+    border-radius: 16px;
+    .mySwiper__3 {
+        width: 100%;
+        height: inherit;
+        background-color: #d92f4e;
+        padding: 20px 0 20px 20px;
+        border-radius: 16px;
+        cursor: pointer;
+        .Active {
+            background-color: #d92f4e;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-content: center;
+            .svg__2 {
+                display: flex;
+                justify-content: center;
+            }
+            a {
+                font-family: IRANyekan;
+                justify-content: center;
+                display: flex;
+                text-decoration: none;
+                color: #fefbfc;
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 2.17;
+                svg {
+                    width: 18px;
+                    height: 18px;
+                    path {
+                        fill: var(--color-icon-white);
+                    }
+                }
+            }
+        }
+        .Root__2 {
+            border-radius: 0 8px 8px 0;
+        }
+        .Root__3 {
+            border-radius: 8px 0 0 8px;
+        }
+        .Root {
+            background-color: white;
+            padding: 8px;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-between;
+            align-items: flex-end;
+            img {
+                width: 132px;
+                height: 132px;
+                object-fit: cover;
+                margin-left: 17px;
+            }
+            p {
+                font-size: 12px;
+                font-family: IRANyekan;
+                font-weight: 700;
+                color: var(--color-neutral-600);
+                cursor: pointer;
+                display: -webkit-box;
+                overflow: hidden;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                line-height: 20px;
+            }
+            .price {
+                width: 100%;
+                display: flex;
+                flex-flow: row-reverse;
+                justify-content: space-between;
+                .Toman {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: var(--color-neutral-700);
+                    font-family: IRANyekan;
+                    font-size: 14px;
+                    font-weight: 700;
+                    line-height: 24px !important;
+                }
+            }
+            .discount {
+                color: var(--color-white);
+                background-color: var(--color-hint-object-error);
+                border-radius: 16px;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                height: 20px;
+                width: 34px;
+                font-family: IRANyekan;
+                font-size: 13px;
+                font-weight: 700;
+                line-height: 20px;
+            }
+            .old-price {
+                width: 56%;
+                text-align: center;
+                color: var(--color-neutral-300);
+                font-family: IRANyekan;
+                font-size: 12px;
+                text-decoration-line: line-through;
+                font-weight: 400;
+            }
+        }
+    }
+}

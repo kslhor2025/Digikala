@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'cube';
+    src: url('cube.eot');
+    src: url('cube.eot?#iefix') format('embedded-opentype'),
+        url('cube.woff2') format('woff2'),
+        url('cube.woff') format('woff'),
+        url('cube.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,103 @@
+.list_Chosen {
+    width: 88.43%;
+    height: 813.37px;
+    margin: 16px auto;
+    border: 1px solid var(--color-neutral-200);
+    border-radius: 16px;
+    .text-123 {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 9px;
+        margin-top: 12px;
+        p {
+            font-size: 22px;
+            font-weight: 500;
+            line-height: 2.1;
+            font-family: IRANyekan;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            width: 500px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            .svg {
+                width: 24px !important;
+                height: 24px !important;
+                path {
+                    fill: var(--color-icon-primary);
+                }
+            }
+        }
+    }
+    .back-menu {
+        width: 99%;
+        height: 730.03px;
+        background-color: #eaeaea;
+        margin: auto;
+        .bcak-menu-item {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            .menu-item {
+                background-color: white;
+                width: 220.8px;
+                height: 242.7px;
+                margin-bottom: 1px;
+                display: flex;
+                flex-flow: column wrap;
+                justify-content: space-between;
+                align-items: flex-end;
+                padding: 10px;
+                img {
+                    width: 150px;
+                    height: 150px;
+                    object-fit: cover;
+                    margin: auto;
+                    margin-top: 12px;
+                }
+                .price-2 {
+                    width: 100%;
+                    display: flex;
+                    flex-flow: row-reverse;
+                    justify-content: space-between;
+                    .tomans-2 {
+                        display: flex;
+                        align-items: center;
+                        color: var(--color-neutral-700);
+                        font-family: IRANyekan;
+                        font-size: 14px;
+                        font-weight: 700;
+                        line-height: 2.1;
+                        gap: 3px;
+                    }
+                }
+                .discount-2 {
+                    font-family: IRANyekan;
+                    background-color: var(--color-hint-object-error);
+                    color: white;
+                    font-size: 12.7px;
+                    font-weight: 700;
+                    border-radius: 16px;
+                    display: inline-block;
+                    width: 33.99px;
+                    height: 20px;
+                    text-align: center;
+                    line-height: 1.6;
+                }
+                .oldprice-2 {
+                    width: 40%;
+                    text-align: center;
+                    text-decoration: line-through;
+                    font-family: IRANyekan;
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: var(--color-neutral-300);
+                }
+            }
+        }
+    }
+}

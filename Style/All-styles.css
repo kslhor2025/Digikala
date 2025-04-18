@@ -1,0 +1,75 @@
+/* Setting Css */
+
+@import url("../Settings/setting.css");
+
+/* Header Css */
+
+@import url("../Style/Header.css");
+
+/* Storybox Css */
+
+@import url(../Style/storybox.css);
+
+/* Slider Css */
+
+@import url(../Style/Slider.css);
+
+/* Category Css */
+
+@import url(../Style/Category.css);
+
+/* Amazing affer Css */
+
+@import url(../Style/amazing-affer.css);
+
+/* Image Item Css*/
+
+@import url(../Style/image-item.css);
+
+/* supermarket Css */
+
+@import url(../Style/supermarket.css);
+
+/* wiper item category Css */
+
+@import url(../Style/wiper-item-category.css);
+
+/* Add image Css */
+
+@import url(../Style/Add-image.css);
+
+/* Brand Css */
+
+@import url(../Style/Brand.css);
+
+/* Category item2 Css */
+
+@import url(../Style/Category-item2.css);
+
+/* Digikala Number Css */
+
+@import url(../Style/Category_Number.css);
+
+/* Digikala item3 Css */
+
+@import url(../Style/Category-item-3.css);
+
+/* Digikala list list Chosen Css */
+
+@import url(../Style/list-Chosen.css);
+
+/* Digikala Readings Css */
+
+@import url(../Style/Readings.css);
+
+/* Digikala footer Css */
+
+@import url(../Style/footer.css);
+
+/* Digikala Login Css */
+
+@import url(../Style/Login.css);
+
+/* Digikala Digital gold Css */
+
+@import url(../Style/Digital-gold.css);
